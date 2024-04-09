@@ -19,7 +19,7 @@ jobs:
           - 8080:8080
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     # Docker 로그인
     - name: Log in to Docker Hub
